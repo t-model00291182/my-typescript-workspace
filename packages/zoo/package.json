@@ -16,6 +16,7 @@
     }
   },
   "dependencies": {
+    "@org/util": "*",
     "@org/animal": "*",
     "tslib": "^2.3.0"
   }

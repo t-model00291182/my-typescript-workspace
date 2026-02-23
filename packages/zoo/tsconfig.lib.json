@@ -13,6 +13,9 @@
   "references": [
     {
       "path": "../animal/tsconfig.lib.json"
+    },
+    {
+      "path": "../util/tsconfig.lib.json"
     }
   ],
   "exclude": [

@@ -1,5 +1,5 @@
 {
-  "name": "@org/animal",
+  "name": "@org/util",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -16,7 +16,6 @@
     }
   },
   "dependencies": {
-    "@org/util": "*",
     "tslib": "^2.3.0"
   }
 }

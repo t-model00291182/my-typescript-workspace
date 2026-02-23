@@ -1,10 +1,8 @@
 
 import { getRandomAnimal } from '@org/animal';
-
-
-
+import { formatMessage } from '@org/util';
 
 export function zoo(): string {
   const result = getRandomAnimal();
-  return `${result.name} says ${result.sound}!`;
+  return formatMessage(result.name, result.sound);
 }

@@ -1,3 +1,5 @@
+import { getRandomItem } from '@org/util';
+
 export function animal(): string {
   return 'animal';
 }
@@ -15,5 +17,5 @@ const animals: Animal[] = [
 ];
 
 export function getRandomAnimal(): Animal {
-  return animals[Math.floor(Math.random() * animals.length)];
+  return getRandomItem(animals);
 }
